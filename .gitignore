@@ -1,12 +1,13 @@
-# Flutter/Dart/Pub related
+# Flutter/Dart/Pub
 .dart_tool/
 .packages
 .pub-cache/
 .pub/
 build/
-flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
 
-# Android related
+# Android
 **/android/app/debug/
 **/android/app/profile/
 **/android/app/release/
@@ -15,7 +16,7 @@ flutter_*.png
 local.properties
 .idea/
 
-# iOS related
+# iOS
 **/ios/Flutter/Flutter.podspec
 **/ios/Flutter/Generated.xcconfig
 **/ios/Flutter/ephemeral/
@@ -28,29 +29,17 @@ xcuserdata/
 *.xcodeproj/xcshareddata/
 DerivedData/
 
-# VS Code / IDE
+# IDE
 .vscode/
 *.code-workspace
-*.sublime-project
-*.sublime-workspace
 
-# MacOS
+# OS
 .DS_Store
-
-# Windows
 *.exe
 *.dll
 *.pdb
 *.obj
-*.lib
-*.manifest
-*.idb
-*.ipch
-
-# Linux
 *.so
-*.out
-*.a
 
 # Web
 web/.dart_tool/
